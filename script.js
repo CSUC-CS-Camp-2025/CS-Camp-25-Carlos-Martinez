@@ -1,7 +1,7 @@
 
 
-document.getElementById("greeting").textContent = "hi there!";
-document.getElementById("h1").textContent = "The Header";
+document.getElementById("greeting").textContent = "welcome!";
+document.getElementById("h1").textContent = "Hello There....?";
 
 let items = document.getElementsByClassName("redclass");
 for (let i = 0; i < items.length; i++)
@@ -18,7 +18,7 @@ document.getElementById("click").addEventListener("click", () =>
 {
     event.preventDefault();
     name = textbox.value;  
-    header.textContent = "hello, " + name + "!"; // grabbing item by id
+    header.textContent = "Hello, " + name + "!"; // grabbing item by id
 });
 
 
@@ -31,6 +31,8 @@ document.getElementById("click").addEventListener("click", () =>
         para.textContent = `Welcome, ${name}!`;// clear the input field
         input.value = '';
     });
+
+    
 
 
 /*This is where you implement your Event Listener. 
