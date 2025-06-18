@@ -1,3 +1,5 @@
+
+
 document.getElementById("greeting").textContent = "hi there!";
 document.getElementById("h1").textContent = "The Header";
 
