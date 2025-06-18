@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
+    <style>
+    .dodgerblueclass
+    {
+        color:dodgerblue
+
+    }
+
+</style>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="/js/main.js"></script>
-    <link rel="stylesheet" href="/css/style.css">
-    <title>My Webpag
-    </title>
+    <title>My Webpage</title>
+
+    
+        <title>My Title </title>
+            <script src="script.js" defer></script>
+        <p id="greeting" class="dodgerblueclass">Hello!</p>
+    <!--<script>conole.log("Hello From inide the HTML!");<script>-->
+
+
 </head>
-<body>
-    <!-- Your content goes here -->
-    <h1>Carlos Martinez</h1>
-    <h2>Blue</h2>
-    <h3>my day was long, I had a 8 hour car ride and got to the dorm to drop off my stuff then went to explore.
-        <br> My family & I ate buffalo Wild Wings then went to my dorm to drop off all my stuff.
-        <br> When I got back We had dinner and I got to meet some friends then went out to get snacks. 
-        <br> The day ended with a broken AC so I got my own room</h3>
-    <div id="kitty">
-        <img src="images/duck.avif" alt="This is a kitten.">
-        
-        <button id="btn">Touch me</button>
-    </div>
+<body>    
+
+    <h1 id="h1" class = "dodgerblueclass">Welcome!</h1>
+
+         <form action="/submit" methods="POST">
+            <label for="Text Box">Text Box</label>
+            <input type="text" id="Text_Box" name="Text Box">
+         </form>
+         <button id="click" class="dodgerblueclass">CLICK</button>
 </body>
 </html>
+<!--
+run this to host site: php -S localhost:3006 -t ./
+-->
