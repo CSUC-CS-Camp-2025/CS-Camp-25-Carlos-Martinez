@@ -3,12 +3,12 @@
 document.getElementById("greeting").textContent = "welcome!";
 document.getElementById("h1").textContent = "Hello There....?";
 
-let items = document.getElementsByClassName("redclass");
+let items = document.getElementsByClassName(".blackclass");
 for (let i = 0; i < items.length; i++)
 {
     items[i].textContent = "Text change";
 }
-const red = document.querySelectorAll(".redclass");
+const red = document.querySelectorAll(".blackclass");
 
 
 const header = document.querySelector("h1");
