@@ -81,6 +81,70 @@ h1 {
   border-radius: 10px;
 }
 
+.Text_BOX3 {
+  text-align: end;
+  background-color: rgb(24, 53, 181);
+  color: white;
+  text-align:justify;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 32px;
+  border: 7px solid rgb(24, 0, 73);
+  display: inline-block;
+  padding: 20px;
+  height: 520px;
+  width:680px;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.Text_BOX4 {
+  text-align: end;
+  background-color: rgb(24, 53, 181);
+  color: white;
+  text-align:justify;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 38px;
+  border: 7px solid rgb(24, 0, 73);
+  display: inline-block;
+  padding: 20px;
+  height: 600px;
+  width: 800px;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.Text_BOX5 {
+  text-align: end;
+  background-color: rgb(24, 53, 181);
+  color: white;
+  text-align:justify;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 32px;
+  border: 7px solid rgb(24, 0, 73);
+  display: inline-block;
+  padding: 20px;
+  height: 700px;
+  width: 650px;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.Text_BOX6 {
+  text-align: end;
+  background-color: rgb(24, 53, 181);
+  color: white;
+  text-align:justify;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 39px;
+  border: 7px solid rgb(24, 0, 73);
+  display: inline-block;
+  padding: 20px;
+  height: 770px;
+  width: 700px;
+  justify-content: center;
+  border-radius: 10px;
+}
+
 .header1 {
   background-color: rgb(57, 100, 193);
   color: rgb(0, 0, 0);
@@ -108,6 +172,30 @@ h1 {
 }
 
 .image-left2 
+{
+  float: left;
+  margin-right: 10px; /* Add some space between image and text */
+}
+
+.image-left3 
+{
+  float: left;
+  margin-right: 10px; /* Add some space between image and text */
+}
+
+.image-right1 
+{
+  float: right;
+  margin-left: 10px; /* Add some space between image and text */
+}
+
+.image-right2 
+{
+  float: right;
+  margin-left: 10px; /* Add some space between image and text */
+}
+
+.image-left4 
 {
   float: left;
   margin-right: 10px; /* Add some space between image and text */
